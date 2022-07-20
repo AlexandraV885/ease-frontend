@@ -51,9 +51,9 @@ function nohov() {
 
 function hov(img, id) {
   document.getElementById(id).style.height = '90px';
-  document.getElementById(id).style.width = '90px';
+  document.getElementById(id).style.width = '6vw';
   document.getElementById(id).style.borderRadius = '10px';
-  document.getElementById(id).style.marginLeft = '16.5px';
+  document.getElementById(id).style.marginLeft = '1.3vw';
   if (document.getElementById(id).classList.contains("clicked")) {
     document.querySelector('.main-image').border = '1px';
     document.querySelector('.main-image').style.borderBottom = '0px';
