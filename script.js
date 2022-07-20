@@ -96,7 +96,7 @@ function inf(height, width, weight, material, electrification, img, id, i) {
    if (document.querySelector('.show-img').classList.contains('metal-2')) {
      document.querySelector('.metal-2').style.width = '83px';
      document.querySelector('.metal-2').style.height = '180px';
-     document.querySelector('.metal-2').style.marginLeft = '860px';
+     //document.querySelector('.metal-2').style.marginLeft = '860px';
      document.querySelector('.lamp-metal-2').style.width = '160px';
    } else if (document.querySelector('.show-img').classList.contains('plastic-4')) {
      document.querySelector('.lamp-plastic-4').style.width = '270px';
